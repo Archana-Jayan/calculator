@@ -1,0 +1,26 @@
+print("For addition :1 ")
+print("For subtraction :2")
+print("For multiplication :3")
+print("For division :4")
+       
+option = int(input("choose an operation : "))  
+
+if(option in[1,2,3,4]):
+    
+    num1 = int(input(print("enter 2 numbers")))
+    num2 = int(input())
+
+    if(option == 1):
+        result = num1 + num2
+    elif(option == 2):
+         result = num1 - num2
+    elif(option == 3):
+         result = num1 * num2
+    elif(option == 4):
+         result= num1 // num2
+
+else:
+     print("invalid operation entered")
+
+print("The result of the operation is {}".format(result))
+  
